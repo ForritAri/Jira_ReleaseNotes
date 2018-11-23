@@ -2,7 +2,7 @@
 Typical flow:
 
 $a = Get-CHeader
-Get-ReleaseNotes -pHeaders $a -pFixVersion="2018.3" -pBaseURI "https://jira.mycompany.com/rest/api/2/" | Out-file 2018.3-rn.txt
+Get-ReleaseNotes -pHeaders $a -pFixVersion "2018.3" -pBaseURI "https://jira.mycompany.com/rest/api/2/" | Out-file 2018.3-rn.txt
 #>
 
 
